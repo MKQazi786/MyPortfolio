@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Fira Sans',sans-serif;
+}
+
+.sidebar {
+    background-color: rgb(192, 182, 182);
+    width: 19.4rem;
+    height: 100vh;
+    font-family: 'Poppins',sans-serif;
+
+}
+
+.sidebar nav {
+    padding: 2rem;
+    list-style: none;
+    font-size: 2rem;
+}
+
+.sidebar nav li {
+    padding: 1rem 0rem;
+}
+
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
+}
+
+.main {
+    /* background-color: yellow; */
+    width: 90vw;
+}
+
+.container {
+    display: flex;
+}
+
+.myInfo {
+    /* background-color: rgb(81, 162, 124); */
+    margin: 7rem 3rem;
+    display: flex;
+    justify-content: space-around;
+    height: 58vh;
+    align-items: center;
+}
+
+.info {
+    font-size: 3rem;
+}
+
+.infoName {
+    font-size: 1.8rem;
+    font-weight: bold;
+
+}
+
+.about {
+    font-size: 1.2rem;
+}
+
+.moreAboutMe{
+    font-size: 0.8rem;
+    margin-top: 1.5rem;
+}
+
+.buttons{
+    margin-top: 2rem;
+}
+
+.buttons button {
+    padding: 1vh 4vh;
+    border-radius: 2.8vh;
+    background-color: #27526d;
+    color: white;
+    margin: 0 0.2rem;
+    font-size: 2.5vh;
+    cursor: pointer;
+}
+
+.buttons button:hover{
+    color: #27526d;
+    background-color: white;
+}
+
+.infoPic img {
+    /* width: 15rem; */
+    width: 45vh;
+    height: 59vh;
+}
