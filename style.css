@@ -4,13 +4,14 @@
 * {
     margin: 0;
     padding: 0;
+    
 }
 
 .sidebar {
     background-color: rgb(192, 182, 182);
     width: 19.4rem;
     height: 100vh;
-    font-family: 'Poppins',sans-serif;
+    font-family: 'Poppins', sans-serif;
 
 }
 
@@ -24,7 +25,7 @@
     padding: 1rem 0rem;
 }
 
-.sidebar nav li a{
+.sidebar nav li a {
     text-decoration: none;
     color: black;
 }
@@ -56,7 +57,7 @@
 .infoName {
     font-size: 1.8rem;
     font-weight: bold;
-    font-family: 'Poppins',sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 .about {
@@ -64,12 +65,12 @@
     font-family: "Source Code Pro", monospace;
 }
 
-.moreAboutMe{
+.moreAboutMe {
     font-size: 0.8rem;
     margin-top: 1.5rem;
 }
 
-.buttons{
+.buttons {
     margin-top: 2rem;
 }
 
@@ -83,7 +84,7 @@
     cursor: pointer;
 }
 
-.buttons button:hover{
+.buttons button:hover {
     color: #27526d;
     background-color: white;
 }
@@ -92,4 +93,52 @@
     /* width: 15rem; */
     width: 45vh;
     height: 59vh;
+}
+
+.contactForm {
+    font-family: 'Poppins', sans-serif;
+    margin: auto;
+    padding-top: 5rem;
+}
+
+.contactForm h1 {
+    font-family: "Source Code Pro", monospace;
+    margin-left: 8.3vh;
+}
+
+.contactForm form {
+    padding-left: 3rem;
+}
+
+.contactForm form div {
+    padding: 2.5vh 0 0;
+    display: flex;
+    flex-direction: column;
+}
+
+#clientEmail,
+#clientPhone {
+    width: 40vh;
+    text-align: start;
+    border-radius: 2vh;
+    padding: 0.5vh;
+    margin: 1vh 0vh 0vh 0vh;
+}
+
+#isClient {
+    align-self:center;
+    height: 3vh;
+}
+
+#emailHelp {
+    font-size: 1.5vh;
+    color: darkslateblue;
+    margin: -1.5vh 0vh 0vh 1vh;
+}
+
+.mb-3.form-check {
+    display: flex;
+    flex-direction: row;
+    gap: 2vh;
+    padding-bottom: 1vh;
 }
