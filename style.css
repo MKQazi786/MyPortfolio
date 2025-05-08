@@ -73,7 +73,7 @@
     font-size: 0.8rem;
     margin-top: 1.5rem;
     font-family: "Reem Kufi Fun", sans-serif;
-
+    word-spacing: 5px;
 }
 
 .buttons {
@@ -92,6 +92,7 @@
 
 .btn:hover {
     color: #27526d;
+    border:2px solid #27526d;
     background-color: white;
 }
 
@@ -148,3 +149,28 @@
     gap: 2vh;
     padding-bottom: 1vh;
 }
+
+.blogContainer{
+    margin: 1rem;
+    padding: 0.5rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.blogItem{
+    margin: 1rem 0rem 1.5rem 0rem;
+}
+
+.blogItem p{
+    margin: 1rem 0rem;
+    font-family: "Source Code Pro", monospace;
+}
+
+.sm-btn {
+    padding: 1vh 1vh;
+    border-radius: 2.8vh;
+    background-color: #27526d;
+    color: white;
+    cursor: pointer;
+    font-size: 2.1vh;
+}
+
