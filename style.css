@@ -53,9 +53,9 @@
 
 .info {
     font-size: 3rem;
-  font-optical-sizing: auto;
-  font-style: normal;
-
+    font-optical-sizing: auto;
+    font-style: normal;
+    min-width: max-content;
 }
 
 .infoName {
@@ -80,26 +80,31 @@
     margin-top: 2rem;
 }
 
-.btn{
+.btn {
     padding: 1vh 4vh;
     border-radius: 2.8vh;
-    background-color: #27526d;
+    /* background-color: #27526d; */
+    background-color: #813932;
     color: white;
     margin: 0 0.2rem;
     font-size: 2.5vh;
     cursor: pointer;
+    border: 2px solid#813932;
 }
 
 .btn:hover {
-    color: #27526d;
-    border:2px solid #27526d;
+    /* color: #27526d; */
+    color: #813932;
+    /* border:2px solid #27526d; */
+    border: 2px solid#813932;
     background-color: white;
 }
 
 .infoPic img {
     /* width: 15rem; */
-    width: 45vh;
-    height: 59vh;
+    width: 38vh;
+    height: 70vh;
+    margin-left: 1rem;
 }
 
 .contactForm {
@@ -133,7 +138,7 @@
 }
 
 #isClient {
-    align-self:center;
+    align-self: center;
     height: 3vh;
 }
 
@@ -150,17 +155,18 @@
     padding-bottom: 1vh;
 }
 
-.blogContainer{
+.blogContainer {
     margin: 1rem;
     padding: 0.5rem;
     font-family: 'Poppins', sans-serif;
 }
 
-.blogItem{
+.blogItem {
     margin: 1rem 0rem 1.5rem 0rem;
 }
 
-.blogItem p{
+.blogItem p,
+.aboutMe p {
     margin: 1rem 0rem;
     font-family: "Source Code Pro", monospace;
 }
@@ -174,3 +180,34 @@
     font-size: 2.1vh;
 }
 
+.aboutMe {
+    margin: 0rem 3rem;
+}
+
+.aboutMe h1 {
+    font-family: "Source Code Pro", monospace;
+}
+
+.skillItem {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    font-family: "Source Code Pro", monospace;
+    padding: 0.3rem 0rem;
+
+}
+
+.skill {
+    width: 20vh;
+    height: 2vh;
+    background-color: maroon;
+    border-radius: 2vh;
+}
+
+@media only screen and (max-width:768px) { 
+
+    .sidebar{
+        transform: translate(-310px, 0px);
+        position: absolute;
+    }
+}
