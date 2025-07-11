@@ -12,9 +12,10 @@
     position: absolute;
     background-color: rgb(192, 182, 182);
     /* width: 19.4rem; */
-    height: 100vh;
+    height: 100%;
     font-family: 'Poppins', sans-serif;
     transition: transform 0.4s ease-in;
+    box-shadow: 1px 2px 7px black;
 }
 
 .sidebar nav {
@@ -115,8 +116,8 @@
 
 .contactForm {
     font-family: 'Poppins', sans-serif;
-    margin: auto;
     padding-top: 5rem;
+    /* margin-left: 2rem; */
 }
 
 .contactForm h1 {
@@ -136,11 +137,23 @@
 
 #clientEmail,
 #clientPhone {
-    width: 40vh;
+    width: 37vh;
     text-align: start;
     border-radius: 2vh;
     padding: 0.5vh;
     margin: 1vh 0vh 0vh 0vh;
+}
+
+.btnContact{
+    padding: 1vh 2vh;
+    border-radius: 2.8vh;
+    /* background-color: #27526d; */
+    background-color: #813932;
+    color: white;
+    margin: 0.5rem 0.2rem;
+    font-size: 2.2vh;
+    cursor: pointer;
+    border: 2px solid #813932;
 }
 
 #isClient {
@@ -239,4 +252,7 @@
         transform: translate(-310px, 0px);
         position: absolute;
     } */
+     .info{
+        font-size: 2.6rem;
+     }
 }
