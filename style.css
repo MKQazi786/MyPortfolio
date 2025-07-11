@@ -5,15 +5,16 @@
 * {
     margin: 0;
     padding: 0;
-    
+
 }
 
 .sidebar {
+    position: absolute;
     background-color: rgb(192, 182, 182);
-    width: 19.4rem;
+    /* width: 19.4rem; */
     height: 100vh;
     font-family: 'Poppins', sans-serif;
-
+    transition: transform 0.4s ease-in;
 }
 
 .sidebar nav {
@@ -33,7 +34,7 @@
 
 .main {
     /* background-color: yellow; */
-    width: 90vw;
+    width: 100vw;
 }
 
 .container {
@@ -67,6 +68,7 @@
 .about {
     font-size: 1.2rem;
     font-family: "Source Code Pro", monospace;
+    margin-top: 0.5rem;
 }
 
 .moreAboutMe {
@@ -78,6 +80,9 @@
 
 .buttons {
     margin-top: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.3rem;
 }
 
 .btn {
@@ -204,10 +209,32 @@
     border-radius: 2vh;
 }
 
-@media only screen and (max-width:768px) { 
+.sidebarGo {
+    transform: translate(-310px, 0px);
+    position: absolute;
+}
 
-    .sidebar{
+.ham {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+
+.hamburger,
+.crossPng {
+    cursor: pointer;
+    font-size: 1.5rem;
+
+}
+
+.crossPng {
+    margin-left: 11.5rem;
+}
+
+@media only screen and (max-width:768px) {
+
+    /* .sidebar {
         transform: translate(-310px, 0px);
         position: absolute;
-    }
+    } */
 }
