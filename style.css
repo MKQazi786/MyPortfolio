@@ -20,11 +20,12 @@
 .sidebar nav {
     padding: 2rem;
     list-style: none;
-    font-size: 2rem;
+    font-size: 1.4rem;
 }
 
 .sidebar nav li {
     padding: 1rem 0rem;
+    /* font-size: 4vh; */
 }
 
 .sidebar nav li a {
@@ -161,7 +162,7 @@
 }
 
 .blogContainer {
-    margin: 1rem;
+    margin: 2rem 1rem 1rem 2rem;
     padding: 0.5rem;
     font-family: 'Poppins', sans-serif;
 }
@@ -186,11 +187,12 @@
 }
 
 .aboutMe {
-    margin: 0rem 3rem;
+    margin: 2rem 3rem;
 }
 
 .aboutMe h1 {
     font-family: "Source Code Pro", monospace;
+    margin-bottom: 1rem;
 }
 
 .skillItem {
@@ -228,7 +230,7 @@
 }
 
 .crossPng {
-    margin-left: 11.5rem;
+    margin-left: 8.3rem;
 }
 
 @media only screen and (max-width:768px) {
