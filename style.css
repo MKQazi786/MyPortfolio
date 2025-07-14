@@ -208,20 +208,34 @@
     margin-bottom: 1rem;
 }
 
-.skillItem {
-    display: flex;
-    gap: 0.5rem;
-    align-items: center;
+.skillContainer {
     font-family: "Source Code Pro", monospace;
-    padding: 0.3rem 0rem;
-
+    padding: 1rem 0rem;
+    max-width: 600px;
 }
 
-.skill {
-    width: 20vh;
-    height: 2vh;
+.skillItem {
+    margin-bottom: 1.2rem;
+}
+
+.skillBar {
+    background-color: #eee;
+    border-radius: 20px;
+    overflow: hidden;
+    height: 20px;
+    margin-top: 5px;
+}
+
+.skill.fill {
     background-color: maroon;
-    border-radius: 2vh;
+    height: 100%;
+    line-height: 20px;
+    color: white;
+    text-align: right;
+    padding-right: 10px;
+    border-radius: 20px;
+    transition: width 1s ease-in-out;
+    font-size: 0.8rem;
 }
 
 .sidebarGo {
@@ -244,6 +258,48 @@
 
 .crossPng {
     margin-left: 8.3rem;
+}
+
+.projectContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  margin: 2rem;
+  font-family: "Source Code Pro", monospace;
+}
+
+.projectCard {
+  width: 280px;
+  background-color: maroon;
+  border-radius: 12px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease;
+  text-align: center;
+}
+
+.projectCard:hover {
+  transform: scale(1.03);
+}
+
+.projectCard img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-bottom: 2px solid #eee;
+}
+
+.projectCard h3 {
+  font-size: 1.3rem;
+  margin: 0.8rem 0 0.5rem;
+  color: white;
+}
+
+.projectCard p {
+  font-size: 0.95rem;
+  padding: 0 1rem 1rem;
+  color: beige;
 }
 
 @media only screen and (max-width:768px) {
@@ -280,5 +336,9 @@
 
     .infoPic img {
         margin-left: 0.1rem;
+    }
+
+    .projectCard {
+        width: 90%;
     }
 }
