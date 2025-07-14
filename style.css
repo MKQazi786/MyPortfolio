@@ -144,7 +144,7 @@
     margin: 1vh 0vh 0vh 0vh;
 }
 
-.btnContact{
+.btnContact {
     padding: 1vh 2vh;
     border-radius: 2.8vh;
     /* background-color: #27526d; */
@@ -252,18 +252,33 @@
         transform: translate(-310px, 0px);
         position: absolute;
     } */
-     .info{
+    .info {
         font-size: 2.6rem;
-     }
+    }
 
-     .blogContainer h1{
+    .blogContainer h1 {
         font-size: 2rem;
-     }
-     .contactForm{
-        margin-right: 1rem;
-     }
+    }
 
-     .infoName{
+    .contactForm {
+        margin-right: 1rem;
+    }
+
+    .infoName {
         font-size: 1.4rem;
-     }
+    }
+
+    .DevInfo {
+        width: 10rem;
+        height: 30rem;
+    }
+
+    .infoPic {
+        width: 19vh;
+        height: 50vh;
+    }
+
+    .infoPic img {
+        margin-left: 0.1rem;
+    }
 }
