@@ -228,7 +228,7 @@
 
 .skill.fill {
     background-color: maroon;
-    height: 100%;
+    height: 130%;
     line-height: 20px;
     color: white;
     text-align: right;
@@ -264,8 +264,8 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 2rem;
-  margin: 2rem;
+  gap: 4rem;
+  margin: 2rem 0rem;
   font-family: "Source Code Pro", monospace;
 }
 
@@ -277,6 +277,7 @@
   overflow: hidden;
   transition: transform 0.3s ease;
   text-align: center;
+  text-transform: capitalize;
 }
 
 .projectCard:hover {
