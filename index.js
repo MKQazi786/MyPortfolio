@@ -21,7 +21,7 @@ const username = "MKQazi786";
 const container = document.getElementById("projects");
 
 const imageMap = {
-    "MyPortfolio": "../photos/Portfolio.jpg",
+    "MyPortfolio": "../photos/Portfolio.png",
     "es6-remaining-days-in-birthday": "../photos/birthday.png",
     "recipe-app-with-es6": "../photos/recipe.png",
     "Digital-clock-with-es6": "../photos/clock.png",
