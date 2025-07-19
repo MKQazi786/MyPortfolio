@@ -27,7 +27,7 @@ const imageMap = {
     "Digital-clock-with-es6": "../photos/clock.png",
     "Mitsol-repo": "../photos/mitsol.png",
     "headshot-clone": "../photos/headshot.png",
-    "Drawing-app-es6": "../photos/Drawing.png",
+    "Drawing-app-es6": "../photos/drawing.png",
     "Quiz-app-with-es6": "../photos/Quiz.png",
     "listr.au": "../photos/listr.png",
     "Footer-library-MKQazi786-": "../photos/footer.png",
