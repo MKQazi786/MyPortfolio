@@ -34,13 +34,30 @@ const imageMap = {
     "Social-champ-Tailwind-UI": "../photos/social.png",
     "Mitsol-Blogs": "../photos/blogs.png",
     "mini-hackathon-of-blog-app": "../photos/blog-app.png",
-    "9-task-of-chatgpt-by-SMIT": "../photos/9 task.png",
+    "9-task-of-chatgpt-by-SMIT": "../photos/9Task.png",
     "es6-weather-app": "../photos/weather.png",
     "Amgen-biotechnology-company": "../photos/amgen.png",
     "crud-with-dart": "../photos/dart.png",
     "react-CV-of-muhammad-khubaib" : '../photos/cv.png',
     "Elloe.ai-repo":'../photos/elloe.png',
-    "great-american-business-show-": '../photos/GABS.png'
+    "great-american-business-show-": '../photos/GABS.png',
+    "es6-matrix-calculator": '../photos/matrix.png',
+    "grade-converter-with-logical-operator": '../photos/grade.png',
+    "my-competition-pepsi-website-": '../photos/pepsi.png',
+    "ES6-javascript-BMI-converter": '../photos/bmi.png',
+    "E6-javascript-grade-converter": '../photos/alertGrade.png',
+    "my-1st-CV-in-SMIT-WEB-DEV-9": '../photos/1stCV.png',
+    "web-dev-b9-multiple-page-CV": '../photos/multiplePageCV.png',
+    "ES6-javascrpt-calculator": '../photos/Addition.png',
+    "The-Lyceum-School": '../photos/lyceum.png',
+    "Arfa-coaching-centre": '../photos/arfaCoaching.png',
+    "Techdotpk-laptop-shop": '../photos/techdotpk.png',
+    "bilal-stationary": '../photos/bilalStationary.png',
+    "PSL-history-of-all-seasons-": '../photos/PSL.png',
+    "SMIT-assignment-job-application-form": '../photos/jobApplication.png',
+    "SMIT-web-dev-b9-Audi-time-table-": '../photos/audiTime.png',
+    "SMIT-web-dev-b9-image-recipe": '../photos/katakat.png',
+    "web-dev-9-2nd-assignment-is-recipe-": '../photos/2ndRecipe.png',
 };
 
 const customUrlMap = {
@@ -71,7 +88,7 @@ const excludedRepos = [
     "Firebase-Real-time-polling-application",
     "thread-app",
     "express-router-with-CRUD",
-    "React-CAC-1stApp"
+    "React-CAC-1stApp",
 ];
 
 const youtubeMap = {
