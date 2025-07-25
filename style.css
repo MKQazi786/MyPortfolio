@@ -303,6 +303,26 @@
   color: beige;
 }
 
+.anchorPNG{
+    text-decoration: none;
+    color: black;
+    font-size: 5vh;
+}
+
+.icon{
+    width: 14rem;
+
+}
+
+.iconDiv{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 2rem 0rem;
+    padding: 1rem;
+    border:2px solid #813932;
+    border-radius: 2rem;
+}
+
 @media only screen and (max-width:768px) {
 
     /* .sidebar {
