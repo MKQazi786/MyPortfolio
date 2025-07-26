@@ -39,25 +39,28 @@
             </div>
             <div class="contactForm">
                 <h1>Contact me for Enquiries</h1>
-                <form>
+                <form action="https://api.web3forms.com/submit" method="POST" >
+                    <input type="hidden" name="access_key" value="4f2c076f-e1af-4653-b38f-340150b498bd">
+                    <input type="hidden" name="replyto" value="email">
+
                     <div class="mb-3">
-                        <label for="clientPhone" class="form-label"> Name </label>
-                        <input type="name" class="form-control" id="clientPhone">
+                        <label for="clientName" class="form-label"> Name </label>
+                        <input type="name" name="name" class="form-control" id="clientPhone">
                     </div>
 
                     <div class="mb-3">
                         <label for="clientEmail" class="form-label">Email Address</label>
-                        <input type="email" class="form-control" id="clientEmail" aria-describedby="emailHelp">
+                        <input type="email" name="email" class="form-control" id="clientEmail" aria-describedby="emailHelp">
                         <div id="emailHelp" class="form-text"> We'll never share your email & phone with anyone else. </div>
                     </div>
                     <div class="mb-3">
                         <label for="clientPhone" class="form-label"> Phone </label>
-                        <input type="phone" class="form-control" id="clientPhone">
+                        <input type="phone" name="phone" class="form-control" id="clientPhone">
                     </div>
 
                     <div class="mb-3">
-                        <label for="clientPhone" class="form-label"> Enquiry</label>
-                        <input type="phone" class="form-control" id="clientPhone">
+                        <label for="clientEnquiry" class="form-label"> Enquiry</label>
+                        <input type="text" name="enquiry" class="form-control" id="clientPhone">
                     </div>
 
                     <div class="mb-3 form-check">
