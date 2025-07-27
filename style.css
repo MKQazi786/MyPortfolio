@@ -373,13 +373,14 @@
   }
 
   .infoPic {
-    width: 31vh;
+    width: 30vh;
     height: 40vh;
   }
 
   .infoPic img {
     margin-left: 0.1rem;
-    width: 34vh;
+    width: 29vh;
+    height: 60vh;
   }
 
   .projectCard {
