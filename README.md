@@ -1,7 +1,10 @@
-Assalam u Alaikum! I'm Muhammad Khubaib, and here’s my first custom-coded portfolio website with a purchased domain.  Check it out: www.MKQazi786.work.gd
+Assalam u Alaikum,
+My name is Muhammad Khubaib, and I’m excited to share my portfolio website with you. As you can see from the thumbnail, this is fully custom-coded by me and is my very first website with a purchased domain.
 
-Watch the walkthrough video: https://youtu.be/P9QM_n7GQFs
+You can explore the website at www.MKQazi786.work.gd or watch the video for a detailed walkthrough.
 
-GitHub Repo: https://github.com/MKQazi786/MyPortfolio"**
+Website Video: https://www.youtube.com/watch?v=P9QM_n7GQFs
+
+The GitHub repository for this project is also available here: https://github.com/MKQazi786/MyPortfolio.
 
 [![Watch the video](https://img.youtube.com/vi/P9QM_n7GQFs/maxresdefault.jpg)](https://www.youtube.com/watch?v=P9QM_n7GQFs)
