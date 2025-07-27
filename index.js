@@ -66,7 +66,8 @@ const customUrlMap = {
     "react-CV-of-muhammad-khubaib" : "https://react-cv-muhammad-khubaib.surge.sh/",
     "Elloe.ai-repo": "https://elloe.ai",
     "great-american-business-show-":'https://greatamericanbusinessshow.com/',
-    "password-generator":'https://mkqazi786-passgenerator.surge.sh'
+    "password-generator":'https://mkqazi786-passgenerator.surge.sh',
+    "MyPortfolio":'https://mkqazi786.work.gd/'
 };
 
 const excludedRepos = [
