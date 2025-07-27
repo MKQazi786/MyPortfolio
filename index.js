@@ -99,7 +99,9 @@ const youtubeMap = {
     "crud-with-dart":'0vnAHP5Jo6U'
 };
 
-fetch(`https://api.github.com/users/${username}/repos?per_page=100`)
+fetch(`https://api.github.com/users/${username}/repos?per_page=100`, {
+    headers: { Authorization: " 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 " }
+})
     .then(res => res.json())
     .then(repos => {
 
