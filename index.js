@@ -58,7 +58,8 @@ const imageMap = {
     "SMIT-web-dev-b9-Audi-time-table-": '../photos/audiTime.png',
     "SMIT-web-dev-b9-image-recipe": '../photos/katakat.png',
     "web-dev-9-2nd-assignment-is-recipe-": '../photos/2ndRecipe.png',
-    "password-generator": '../photos/passGene.png'
+    "password-generator": '../photos/passGene.png',
+    "currency-converter-with-custom-hook":'../photos/currencyConverter.png'
 };
 
 const customUrlMap = {
@@ -67,7 +68,8 @@ const customUrlMap = {
     "Elloe.ai-repo": "https://elloe.ai",
     "great-american-business-show-":'https://greatamericanbusinessshow.com/',
     "password-generator":'https://mkqazi786-passgenerator.surge.sh',
-    "MyPortfolio":'https://mkqazi786.work.gd/'
+    "MyPortfolio":'https://mkqazi786.work.gd/',
+    "currency-converter-with-custom-hook":'https://mkqazi786-currency-converter.surge.sh/'
 };
 
 const excludedRepos = [
