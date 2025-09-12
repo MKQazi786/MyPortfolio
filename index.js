@@ -94,6 +94,7 @@ const excludedRepos = [
     "thread-app",
     "express-router-with-CRUD",
     "React-CAC-1stApp",
+    "AWMK-confectionary-supplier"
 ];
 
 const youtubeMap = {
