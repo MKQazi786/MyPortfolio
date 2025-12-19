@@ -95,7 +95,13 @@ const excludedRepos = [
     "express-router-with-CRUD",
     "React-CAC-1stApp",
     "AWMK-confectionary-supplier",
-    "Context-Api"
+    "Context-Api",
+    "Flutter-1st-assignment",
+    "flutter-crud-with-local-storage",
+    "Flutter_practice_code",
+    "movie-app",
+    "getx_app",
+    "my_app_firebase",
 ];
 
 const youtubeMap = {
